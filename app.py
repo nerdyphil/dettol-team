@@ -24,7 +24,7 @@ def generate():
 def delete_file(img_title):
     os.unlink(os.path.join(GENERATED_PATH, img_title))
 
-def make_certificate(username, number):
+def make_certificate(filename, username, number):
     # set certificate style
     font = "PTSans-Bold.ttf"
     track_font = "LeagueSpartan-Bold.otf"
